@@ -2,19 +2,18 @@
     <div id="project-features">
         <h1 class="title">Vue 搜索框</h1>
         <div class="features">
-            <search v-model="searchText"></search>
-            <p>{{searchText}}</p>
+            <loader ></loader>
         </div>
     </div>
 </template>
 
 <script>
-    import search from 'vue-search';
+    import loader from '../../src/index';
 
     export default {
         name: 'ProjectFeatures',
         components: {
-            search
+            loader
         },
         data() {
             return {

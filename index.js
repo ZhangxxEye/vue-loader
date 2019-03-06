@@ -1,11 +1,11 @@
-import VueSearch from './index';
+import VueLoader from './src/index';
 
 // add autoinstall support if the component is attached to the windows object e.g. if added by CDN
-VueSearch.install = Vue => Vue.component(VueSearch.name, VueSearch);
-if (typeof window !== 'undefined' && window.Vue) window.Vue.use(VueSearch);
+VueLoader.install = Vue => Vue.component(VueLoader.name, VueLoader);
+if (typeof window !== 'undefined' && window.Vue) window.Vue.use(VueLoader);
 
 export {
-    VueSearch
+    VueLoader
 };
 
-export default VueSearch;
+export default VueLoader;
