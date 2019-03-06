@@ -1,6 +1,6 @@
 <template lang="html">
     <div id="project-features">
-        <h1 class="title">Vue 搜索框</h1>
+        <h1 class="title">loading</h1>
         <div class="features">
             <loader ></loader>
         </div>

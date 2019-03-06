@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git@github.com:ZhangxxEye/vue-loader.git"
   },
-  "main": "dist/vue-loader.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "npm run docs",
     "docs": "cross-env NODE_ENV=development webpack-dev-server --hot --config ./build/docs.config.js",
