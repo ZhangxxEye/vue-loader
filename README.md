@@ -18,7 +18,7 @@ npm install vue-loader
 ```
 ```
 <script>
-    import loader from 'vue-loader';
+    import loader from 'nat-vue-loader';
 
     export default {
         components: {
