@@ -14,11 +14,6 @@
         name: 'ProjectFeatures',
         components: {
             loader
-        },
-        data() {
-            return {
-                searchText: ''
-            }
         }
     };
 </script>

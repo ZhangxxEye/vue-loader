@@ -1,35 +1,28 @@
 # vue-search
-用于搜索的input组件
+加载框
 ## install
 NPM
 ```
-npm install nat-vue-search
+npm install vue-loader
 ```
 ## 用法
 ```
 <template lang="html">
     <div id="project-features">
-        <h1 class="title">Vue 搜索框</h1>
+        <h1 class="title">loading</h1>
         <div class="features">
-            <search v-model="searchText"></search>
-            <p>{{searchText}}</p>
+            <loader ></loader>
         </div>
     </div>
 </template>
 ```
 ```
 <script>
-    import search from 'vue-search';
+    import loader from 'vue-loader';
 
     export default {
-        name: 'ProjectFeatures',
         components: {
-            search
-        },
-        data() {
-            return {
-                searchText: ''
-            }
+            loader
         }
     };
 </script>
@@ -38,7 +31,7 @@ npm install nat-vue-search
 #### props
 属性 | 说明 | 类型 | 默认值
 ---|---|---|---
-placeholder | placeholder | string | 请输入查询信息
+text | 加载框中的显示文字 | string | 加载中...
 ## 启动
 ```
 npm run dev
