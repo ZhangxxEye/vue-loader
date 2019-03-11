@@ -1,9 +1,10 @@
-# vue-search
+# vue-loader
 加载框
+![](//cdn.51talk.com/apollo/images/f2887eafaa0c6386a85ef838c5936558.png)
 ## install
 NPM
 ```
-npm install vue-loader
+npm install @nat/vue-loader
 ```
 ## 用法
 ```
@@ -18,7 +19,7 @@ npm install vue-loader
 ```
 ```
 <script>
-    import loader from 'nat-vue-loader';
+    import loader from '@nat/vue-loader';
 
     export default {
         components: {
